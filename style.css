@@ -58,5 +58,28 @@
 .hero-description__content-icons {
   font-size: 30px;
   color: rgb(223, 0, 111);
-  display: inline;
+
+}
+
+/*media querys*/
+
+@media(max-width:500px) {
+
+  .hero-image__container {
+    width: 100%;    
+  }
+  
+  .hero-image__style {
+    width: 100%;
+    height: auto; 
+    opacity: 0.3;
+  }
+
+  .hero-description {
+    width: 100%;
+    z-index: 10;
+    text-align: justify;
+    padding: 50px;
+  }
+
 }
